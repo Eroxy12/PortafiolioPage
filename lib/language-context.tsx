@@ -55,6 +55,18 @@ const translations = {
         "services.audit.benefit": "Descubre qué está frenando tus ventas",
         "services.audit.ideal": "Cualquier negocio online",
 
+        // About Me
+        "about.title": "Más que código, creo soluciones",
+        "about.desc": "Soy Jonathan, desarrollador web especializado en negocios locales. Mi obsesión no es solo que tu web se vea bonita, sino que sea tu mejor vendedor.",
+        "about.passion": "Me apasiona transformar 'gastos' en 'inversiones'. Si tu web no te trae clientes, no sirve. Trabajo mano a mano contigo para entender tu negocio.",
+        "about.quote": "Trabajo cercano con cada cliente para crear soluciones prácticas.",
+        "about.stat1.value": "+3",
+        "about.stat1.label": "Años de experiencia",
+        "about.stat2.value": "100%",
+        "about.stat2.label": "Compromiso",
+        "about.stat3.value": "24/7",
+        "about.stat3.label": "Soporte Técnico",
+
         // Portfolio
         "portfolio.title": "Trabajos recientes",
         "portfolio.restaurant.title": "Restaurante La Finca",
@@ -115,6 +127,18 @@ const translations = {
         "services.audit.desc": "I analyze your current site at no cost and tell you how to improve your sales today.",
         "services.audit.benefit": "Discover what's holding back your sales",
         "services.audit.ideal": "Any online business",
+
+        // About Me
+        "about.title": "More than code, I create solutions",
+        "about.desc": "I'm Jonathan, a web developer specialized in local businesses. My obsession is not just making your site look good, but making it your best salesperson.",
+        "about.passion": "I'm passionate about transforming 'expenses' into 'investments'. If your site doesn't bring you clients, it's useless. I work hand in hand with you.",
+        "about.quote": "I work closely with each client to create practical solutions.",
+        "about.stat1.value": "+3",
+        "about.stat1.label": "Years Experience",
+        "about.stat2.value": "100%",
+        "about.stat2.label": "Commitment",
+        "about.stat3.value": "24/7",
+        "about.stat3.label": "Tech Support",
 
         // Portfolio
         "portfolio.title": "Recent work",

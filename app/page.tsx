@@ -6,6 +6,7 @@ import { useLanguage } from "@/lib/language-context";
 import dynamic from "next/dynamic";
 
 const Benefits = dynamic(() => import("@/components/Benefits"));
+const AboutMe = dynamic(() => import("@/components/AboutMe"));
 const Services = dynamic(() => import("@/components/Services"));
 const Portfolio = dynamic(() => import("@/components/Portfolio"));
 const FinalCTA = dynamic(() => import("@/components/FinalCTA"));
@@ -19,6 +20,7 @@ export default function Home() {
             <Header />
             <Hero />
             <Benefits />
+            <AboutMe />
             <Services />
             <Portfolio />
             <FinalCTA />
