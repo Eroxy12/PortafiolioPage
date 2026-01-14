@@ -27,7 +27,7 @@ export default function FinalCTA() {
                     <Button
                         size="lg"
                         asChild
-                        className="rounded-full px-10 text-lg font-semibold h-14"
+                        className="rounded-full px-6 md:px-10 text-base md:text-lg font-semibold h-auto py-4 w-full md:w-auto whitespace-normal"
                     >
                         <a
                             href="https://wa.me/573137225266?text=Hola,%20estoy%20listo%20para%20digitalizar%20mi%20negocio.%20¿Podemos%20hablar?"
