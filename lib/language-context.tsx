@@ -18,8 +18,8 @@ const translations = {
         "nav.contact": "Hablemos por WhatsApp",
 
         // Hero
-        "hero.title": "Tu negocio merece una web que venda, no solo que exista.",
-        "hero.subtitle": "Diseño sitios web modernos, ultra rápidos y optimizados para aparecer en Google. Convierte visitantes en clientes desde el primer día.",
+        "hero.title": "Atrae más clientes con una web diseñada para vender",
+        "hero.subtitle": "Diseño sitios web rápidos, modernos y optimizados para Google, enfocados en convertir visitas en clientes reales.",
         "hero.cta": "Solicitar Presupuesto Gratis",
         "hero.response": "Respuesta en menos de 1 hora",
 
