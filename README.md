@@ -1,108 +1,104 @@
 # Portfolio Landing Page
 
-High-conversion portfolio landing page for a freelance web developer built with Next.js 14, TypeScript, and Tailwind CSS.
+A high-performance portfolio landing page designed for freelance web developers and digital agencies. Built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**, focusing on speed, SEO optimization, and conversion rates.
 
-## 🚀 Features
+## About The Project
 
-- ⚡ Built with Next.js 14 (App Router)
-- 🎨 Modern "Antigravity" design with neon cyberpunk aesthetic
-- 📱 Fully responsive Bento Grid layout
-- 🎭 Smooth animations with Framer Motion
-- 🔍 SEO optimized with metadata, robots.txt, and sitemap
-- 🌐 Glassmorphism effects and custom animations
-- 📞 WhatsApp integration for CTAs
-- 🎯 High-conversion focused copy
+This project serves as a comprehensive starting point for establishing a professional online presence. It features a modern, responsive design that highlights services, showcases portfolio projects, and facilitates client communication through direct WhatsApp integration.
 
-## 🛠️ Tech Stack
+### Key Features
 
-- **Framework:** Next.js 14 with App Router
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **UI Components:** Shadcn/ui
-- **Icons:** Lucide React
-- **Animations:** Framer Motion
-- **Font:** Plus Jakarta Sans
+*   **Next.js 14 App Router**: Utilizes the latest React framework features for server-side rendering and static optimization.
+*   **Responsive Design**: Fully responsive layout adapting seamlessly to mobile, tablet, and desktop screens.
+*   **Performance First**: Optimized for Core Web Vitals with lazy loading, efficient image handling, and proper resource prioritization.
+*   **SEO Ready**: Includes dynamic sitemap generation, robots.txt configuration, and semantic HTML structure for better search engine visibility.
+*   **Internationalization**: Built-in support for multiple languages (English/Spanish) using a lightweight context provider.
+*   **Modern UI/UX**: clean aesthetics with smooth Framer Motion animations and glassmorphism effects.
 
-## 📦 Installation
+## Built With
 
-```bash
-# Install dependencies
-npm install
+*   **Framework**: Next.js 14
+*   **Language**: TypeScript
+*   **Styling**: Tailwind CSS, Tailwind Merge, CLS
+*   **Components**: Radix UI (via shadcn/ui)
+*   **Animations**: Framer Motion
+*   **Icons**: Lucide React
 
-# Run development server
-npm run dev
+## Getting Started
 
-# Build for production
-npm run build
+Follow these steps to set up the project locally on your machine.
 
-# Start production server
-npm start
+### Prerequisites
+
+*   Node.js 18.17 or later
+*   npm or yarn
+
+### Installation
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/yourusername/portfolio-landing.git
+    cd portfolio-landing
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**
+    ```bash
+    npm run dev
+    ```
+
+    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Configuration
+
+### Contact Information
+To update the WhatsApp contact number, modify the `href` attributes in the following components:
+*   `components/Header.tsx`
+*   `components/Hero.tsx`
+*   `components/Pricing.tsx`
+*   `components/FloatingCTA.tsx`
+*   `components/FinalCTA.tsx`
+
+### SEO & Metadata
+Edit `app/layout.tsx` to update the default metadata, including:
+*   Title and Description
+*   Open Graph images
+*   Keywords
+*   Local Business Schema (JSON-LD)
+
+### Site Map
+Update the base URL in `app/sitemap.ts` and `app/robots.ts` to match your production domain.
+
+## Project Structure
+
+```
+/
+├── app/                  # App Router pages and layouts
+│   ├── layout.tsx        # Root layout with Metadata/SEO
+│   ├── page.tsx          # Homepage composition
+│   └── globals.css       # Global styles and tailwind directives
+├── components/           # React components
+│   ├── ui/               # Reusable UI primitives (shadcn)
+│   ├── Header.tsx        # Navigation bar
+│   ├── Hero.tsx          # Landing section
+│   └── ...               # Other sections
+├── lib/                  # Utilities and contexts
+│   └── language-context.tsx # i18n Logic
+└── public/               # Static assets
 ```
 
-## 🎨 Customization
+## Deployment
 
-### Update WhatsApp Number
+The project is optimized for deployment on **Vercel**.
 
-Replace `1234567890` with your actual WhatsApp number in:
-- `components/Header.tsx`
-- `components/Hero.tsx`
-- `components/Pricing.tsx`
-- `components/FloatingCTA.tsx`
+1.  Push your code to a git repository (GitHub, GitLab, BitBucket).
+2.  Import the project into Vercel.
+3.  Vercel will detect Next.js and configure the build settings automatically.
 
-### Update Metadata
+## License
 
-Edit SEO information in `app/layout.tsx`:
-- Update the domain in `metadataBase`
-- Replace placeholder text with your information
-- Add your Google verification code
-
-### Update Sitemap and Robots
-
-Update your domain in:
-- `app/robots.ts`
-- `app/sitemap.ts`
-
-## 📂 Project Structure
-
-```
-├── app/
-│   ├── layout.tsx        # Root layout with SEO
-│   ├── page.tsx          # Main landing page
-│   ├── globals.css       # Global styles
-│   ├── robots.ts         # Robots.txt
-│   └── sitemap.ts        # Sitemap
-├── components/
-│   ├── ui/               # Shadcn/ui components
-│   ├── Header.tsx        # Sticky header
-│   ├── Hero.tsx          # Hero section
-│   ├── Services.tsx      # Bento Grid services
-│   ├── Portfolio.tsx     # Portfolio showcase
-│   ├── Pricing.tsx       # Pricing cards
-│   └── FloatingCTA.tsx   # Floating WhatsApp button
-└── lib/
-    └── utils.ts          # Utility functions
-```
-
-## 🎯 Sections
-
-1. **Header:** Sticky glassmorphism header with logo and CTA
-2. **Hero:** High-impact section with ROI-focused headline
-3. **Services:** Bento Grid layout with 3 service cards
-4. **Portfolio:** Project showcase with gradient placeholders
-5. **Pricing:** 3-tier pricing with highlighted "Starter Pack"
-6. **Floating CTA:** Always-visible WhatsApp button
-
-## 🌐 Deployment
-
-Deploy to Vercel:
-
-```bash
-npm install -g vercel
-vercel
-```
-
-Or use the Vercel dashboard for GitHub integration.
-
-## 📄 License
-
-MIT License - feel free to use this template for your own portfolio!
+Distributed under the MIT License. See `LICENSE` for more information.
