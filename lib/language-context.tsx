@@ -68,7 +68,7 @@ const translations = {
         "about.stat3.label": "Soporte Técnico",
 
         // Portfolio
-        "portfolio.title": "Trabajos recientes",
+        "portfolio.title": "Proyectos que Generan Resultados",
         "portfolio.restaurant.title": "Restaurante La Finca",
         "portfolio.restaurant.desc": "Web de reservas y menú digital",
         "portfolio.dental.title": "Consultorio Dental",
@@ -141,7 +141,7 @@ const translations = {
         "about.stat3.label": "Tech Support",
 
         // Portfolio
-        "portfolio.title": "Recent work",
+        "portfolio.title": "Projects that Drive Results",
         "portfolio.restaurant.title": "La Finca Restaurant",
         "portfolio.restaurant.desc": "Reservation and digital menu website",
         "portfolio.dental.title": "Dental Clinic",

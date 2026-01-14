@@ -43,7 +43,7 @@ export const metadata: Metadata = {
         siteName: "Jonathan Portfolio",
         images: [
             {
-                url: "/og-image.jpg",
+                url: "/jonathanIlustration3.png",
                 width: 1200,
                 height: 630,
                 alt: "Jonathan - Diseño Web en Medellín",
@@ -55,8 +55,7 @@ export const metadata: Metadata = {
         title: "Jonathan | Diseño Web & SEO Medellín",
         description:
             "Desarrollo web profesional y estrategias SEO para negocios en Medellín.",
-        images: ["/og-image.jpg"],
-        creator: "@jonathan_dev", // Placeholder
+        images: ["/jonathanIlustration3.png"],
     },
     robots: {
         index: true,
@@ -70,7 +69,7 @@ export const metadata: Metadata = {
         },
     },
     verification: {
-        google: "google-site-verification-code", // Placeholder
+        google: "google-site-verification-code", // Placeholder - to be updated by user
     },
 };
 
@@ -78,7 +77,7 @@ const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "Jonathan - Diseño Web y SEO Local",
-    "image": "https://jonathan.dev/og-image.jpg", // Placeholder
+    "image": "https://portafiolio-page.vercel.app/jonathanIlustration3.png",
     "description": "Diseño de páginas web profesionales y menús digitales QR en Medellín. Especialista en SEO Local y optimización de velocidad.",
     "telephone": "+57 313 722 5266",
     "address": {
@@ -87,7 +86,7 @@ const jsonLd = {
         "addressRegion": "Antioquia",
         "addressCountry": "CO"
     },
-    "url": "https://jonathan.dev",
+    "url": "https://portafiolio-page.vercel.app",
     "priceRange": "$$$",
     "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
@@ -102,8 +101,8 @@ const jsonLd = {
         "closes": "18:00"
     },
     "sameAs": [
-        "https://linkedin.com/in/jonathan",
-        "https://github.com/jonathan"
+        "https://linkedin.com/in/jonathan-cardona-b38326222",
+        "https://github.com/Eroxy12"
     ]
 };
 
