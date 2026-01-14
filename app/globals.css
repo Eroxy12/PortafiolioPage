@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light mode - Pastel Coffee Theme */
+    --background: 30 20% 96%;
+    --foreground: 25 30% 15%;
+    --card: 30 25% 98%;
+    --card-foreground: 25 30% 15%;
+    --popover: 30 20% 96%;
+    --popover-foreground: 25 30% 15%;
+    --primary: 25 60% 45%;
+    --primary-foreground: 30 20% 98%;
+    --secondary: 30 15% 90%;
+    --secondary-foreground: 25 30% 15%;
+    --muted: 30 15% 88%;
+    --muted-foreground: 25 20% 40%;
+    --accent: 30 20% 92%;
+    --accent-foreground: 25 30% 15%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 30 20% 98%;
+    --border: 30 15% 85%;
+    --input: 30 15% 85%;
+    --ring: 25 60% 45%;
+    --radius: 1rem;
+  }
+
+  .dark {
+    /* Dark mode - Warm Coffee */
+    --background: 25 15% 12%;
+    --foreground: 30 15% 95%;
+    --card: 25 12% 15%;
+    --card-foreground: 30 15% 95%;
+    --popover: 25 15% 12%;
+    --popover-foreground: 30 15% 95%;
+    --primary: 30 50% 55%;
+    --primary-foreground: 25 15% 12%;
+    --secondary: 25 10% 20%;
+    --secondary-foreground: 30 15% 95%;
+    --muted: 25 10% 22%;
+    --muted-foreground: 30 10% 65%;
+    --accent: 25 10% 20%;
+    --accent-foreground: 30 15% 95%;
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 30 15% 95%;
+    --border: 25 8% 25%;
+    --input: 25 8% 25%;
+    --ring: 30 50% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer utilities {
+  .apple-card {
+    background: rgba(253, 249, 245, 0.85);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(200, 185, 170, 0.3);
+  }
+
+  .dark .apple-card {
+    background: rgba(35, 30, 28, 0.85);
+    border: 1px solid rgba(80, 70, 65, 0.3);
+  }
+
+  .text-gradient-apple {
+    background: linear-gradient(135deg, #b8956a 0%, #8b6f47 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .shadow-apple {
+    box-shadow: 0 10px 40px rgba(139, 111, 71, 0.08);
+  }
+
+  .dark .shadow-apple {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Minimal scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 111, 71, 0.3);
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 111, 71, 0.5);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
