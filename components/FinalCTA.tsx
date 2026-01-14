@@ -33,9 +33,12 @@ export default function FinalCTA() {
                             href="https://wa.me/573137225266?text=Hola,%20estoy%20listo%20para%20digitalizar%20mi%20negocio.%20¿Podemos%20hablar?"
                             target="_blank"
                             rel="noopener noreferrer"
+                            className="flex items-center justify-center gap-2 max-w-full"
                         >
-                            {t("cta.button")}
-                            <ArrowRight className="w-5 h-5 ml-2" />
+                            <span className="flex-1 break-words leading-tight">
+                                {t("cta.button")}
+                            </span>
+                            <ArrowRight className="w-5 h-5 flex-shrink-0" />
                         </a>
                     </Button>
                 </motion.div>

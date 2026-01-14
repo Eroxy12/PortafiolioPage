@@ -26,17 +26,17 @@ export const metadata: Metadata = {
         "posicionamiento web medellin",
         "programador freelance medellin",
     ],
-    authors: [{ name: "Jonathan", url: "https://jonathan.dev" }], // Update with real URL if available
+    authors: [{ name: "Jonathan", url: "https://portafiolio-page.vercel.app" }],
     creator: "Jonathan",
     publisher: "Jonathan",
-    metadataBase: new URL("https://jonathan.dev"), // Update with real URL
+    metadataBase: new URL("https://portafiolio-page.vercel.app"),
     alternates: {
         canonical: "/",
     },
     openGraph: {
         type: "website",
         locale: "es_CO",
-        url: "https://jonathan.dev",
+        url: "https://portafiolio-page.vercel.app",
         title: "Diseño Web que Vende en Medellín | Jonathan",
         description:
             "Ayudo a negocios en Medellín a tener presencia digital profesional. Páginas web modernas, rápidas y optimizadas para Google.",
