@@ -16,7 +16,7 @@ export default function FinalCTA() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
-                    className="text-center space-y-8 p-12 rounded-3xl apple-card shadow-apple"
+                    className="text-center space-y-8 p-6 md:p-12 rounded-3xl apple-card shadow-apple"
                 >
                     <h2 className="text-4xl md:text-6xl font-bold tracking-tight">
                         {t("cta.title")}

@@ -11,13 +11,13 @@ export default function Hero() {
     return (
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
             <div className="container mx-auto px-6 lg:px-8 max-w-7xl">
-                <div className="text-center space-y-8 py-32">
+                <div className="text-center space-y-8 py-20 md:py-32">
                     {/* Main Headline - Sales focused */}
                     <motion.h1
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, ease: "easeOut" }}
-                        className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-tight max-w-5xl mx-auto"
+                        className="text-4xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-tight max-w-5xl mx-auto"
                     >
                         {t("hero.title")}
                     </motion.h1>
